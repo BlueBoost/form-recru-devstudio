@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght300&display=swap');
+
+body{
+    background-color: #fef1df;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Roboto', sans-serif;
+}
+
+.scroller {
+    width: 300px;
+    height: 10000px;
+    overflow-y: scroll;
+    scrollbar-color: rgb(0, 0, 0) rgb(150, 150, 150);
+    scrollbar-width: thin;
+}
+
+form{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+form .separation{
+    width: 550px;
+    height: 5px;
+    background-color: #969696;
+    border-radius: 2rem;
+}
+
+form .corps-Formulaire{
+    margin-bottom: 30px;
+}
+
+.VPD{
+    text-align: center;
+}
+
+.txt{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.gr{
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.PC{
+    margin: 10px;
+    border-radius: 2rem;
+}
+
+.imgds{
+    margin: 10px;
+    border-radius: 2rem;
+}
+
+input{
+    border-radius: 2rem;
+    margin-left: 5px;
+    padding: 6px;
+    border-color: rgb(113, 113, 197);
+    outline: rgb(113, 113, 197);
+}
+
+button{
+    margin-top: 10px;
+    background-color: rgb(146, 146, 194);
+    color: white;
+    font-size: 15px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+button:hover{
+    transform: scale(1.05);
+}
+
+html{
+    height: 1200px;
+}
+
+.java{
+    position: relative; left: 250px; top: -200px;
+}
+
+
+.ou{
+    position: relative; left: 250px;
+    size: 100px;
+}
+
+.lua{
+    position: relative; left: 0px; top: 0px;right: 50%;
+}
+
+.gr6{
+    position: relative; left: 0px; top: -50px;
+}
+
+.gr5{
+    position: relative; left: 0px; top: -125px;
+}
